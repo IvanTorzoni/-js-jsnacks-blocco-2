@@ -7,7 +7,7 @@
 
 function rimuoviDallaCoda(arrayFunct) {
     let result = [];
-    for (i = 0; i < arrayFunct.length - 1; i++) {
+    for (let i = 0; i < arrayFunct.length - 1; i++) {
         result.push(arrayFunct[i])
     }
     return result
